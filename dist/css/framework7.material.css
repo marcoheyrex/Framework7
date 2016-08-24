@@ -12,7 +12,7 @@
  * 
  * Licensed under MIT
  * 
- * Released on: June 21, 2016
+ * Released on: August 25, 2016
  */
 html,
 body {
@@ -2071,7 +2071,7 @@ html:not(.watch-active-state) .chip .chip-delete:active,
 }
 /* === Content Block === */
 .content-block {
-  margin: 32px 0;
+  margin: 5px 0;
   padding: 0 16px;
   box-sizing: border-box;
 }
@@ -2082,6 +2082,7 @@ html:not(.watch-active-state) .chip .chip-delete:active,
   white-space: nowrap;
   text-overflow: ellipsis;
   font-size: 14px;
+  font-weight: bold;
   line-height: 1;
   margin: 16px 16px 16px;
   padding-top: 16px;
