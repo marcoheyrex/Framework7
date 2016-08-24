@@ -1,10 +1,10 @@
 /* === Toolbars === */
 
 //Toolbar/Navbar
-@toolbarBg : #f7f7f8;
+@toolbarBg : @themeColor;
 @toolbarBgBlured: rgba(248,248,249, 0.85);
 @toolbarBorderColor: #c4c4c4;
-@toolbarLinksColor: @themeColor;
+@toolbarLinksColor: #fff;
 @toolbarSize: 44px;
 
 //Tab bar
@@ -50,11 +50,13 @@
 }
 .navbar, .toolbar, .subnavbar {
     background: @toolbarBg;
+    color: @toolbarLinksColor;
     a.link {
         line-height: @toolbarSize;
         height: @toolbarSize;
         text-decoration: none;
         position: relative;
+        color: @toolbarLinksColor;
         .flexbox();
         .justify-content(flex-start);
         .align-items(center);
@@ -271,7 +273,7 @@
     .sliding {
         opacity: 1;
     }
-    
+
 }
 .navbar-from-center-to-right {
     .left, .right, .center, .subnavbar, .fading {
