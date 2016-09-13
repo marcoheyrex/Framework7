@@ -12,7 +12,7 @@
  * 
  * Licensed under MIT
  * 
- * Released on: August 25, 2016
+ * Released on: August 31, 2016
  */
 html,
 body {
@@ -2149,7 +2149,7 @@ i.icon.icon-plus {
   text-overflow: ellipsis;
   font-size: 14px;
   font-weight: bold;
-  line-height: 1;
+  /*line-height: 1;*/
   color: #6d6d72;
   margin: 35px 15px 10px;
 }
@@ -4372,7 +4372,7 @@ html.with-statusbar-overlay .popup.tablet-fullscreen {
 .picker-modal .toolbar {
   position: relative;
   width: 100%;
-  background: #f7f7f8;
+  background: #8D629D;
 }
 .picker-modal .toolbar:before {
   content: '';
